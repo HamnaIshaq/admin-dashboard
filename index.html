@@ -7,14 +7,92 @@
   <link rel="shortcut icon" href="./assets/fav-icon.png" type="image/x-icon">
   <title>Admin Dashboard</title>
 
+  <!-- Material icons via google fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Google fonts - Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
   <!-- The Meyer Reset -->
   <link rel="stylesheet" href="./css/meyer-reset.css">
   <!-- Style sheet -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  
-  <h1>test</h1>
+
+  <header>
+    <div>
+      <div>
+        <label for="search">
+          <span class="material-icons"> search </span>
+        </label>
+        <input type="search" id="search" name="search">
+      </div>
+      <div>
+        <img src="./assets/notifications_active_icon.svg" alt="notifications">
+        <img src="./assets/menu_black_icon.svg" alt="dropdown menu">
+        <img src="./assets/star_rate_black_icon.svg" alt="star">
+        <img src="./assets/visibility_black_icon.svg" alt="eye">
+
+        
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <div>
+        <img class="nav__icon" src="./assets/admin-dashboard-icon.png" alt="admin dashboard icon"/>
+        <h1>Dashboard</h1>
+      </div>  
+      <ul>
+        <div>
+          <li>
+            <span class="material-icons"> home </span>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <span class="material-icons"> contact_emergency </span>
+            <a href="#">Profile</a>
+          </li>
+          <li>
+            <span class="material-icons"> mode_comment </span>
+            <a href="#">Message</a>
+          </li>
+          <li>
+            <span class="material-icons"> watch_later </span>
+            <a href="#">History</a>
+          </li>
+          <li>
+            <span class="material-icons"> task </span>
+            <a href="#">Tasks</a>
+          </li>
+          <li>
+            <span class="material-icons"> groups </span>
+            <a href="#">Communities</a>
+          </li>
+        </div>
+        <div>
+          <li>
+            <span class="material-icons"> settings </span>
+            <a href="#">Settings</a>
+          </li>
+          <li>
+            <span class="material-icons"> help_center </span>
+            <a href="#">Support</a>
+          </li>
+          <li>
+            <span class="material-icons"> verified_user </span>
+            <a href="#">Privacy</a>
+          </li>
+        </div>
+      </ul>
+
+
+    </div>
+  </nav>
   
 </body>
 </html>
