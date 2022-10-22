@@ -7,6 +7,16 @@
   --darkGray: rgb(138, 138, 138);
 }
 
-h1 {
-  color: var(--lightBlue);
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+  display: block;
+}
+
+.nav-container {
+  background-color: var(--lightBlue);
+  color: var(--white);
 }
