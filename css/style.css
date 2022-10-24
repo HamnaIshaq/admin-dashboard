@@ -33,8 +33,3 @@ body {
 img {
   display: block;
 }
-
-.nav-container {
-  background-color: var(--lightBlue);
-  color: var(--white);
-}
