@@ -2,6 +2,7 @@
   --white: rgb(255, 255, 255);
   --black: rgb(17, 17, 17);
   --lightBlue: rgb(25, 146, 212);
+  --lightBlueLightOpacity: rgba(25, 146, 212, 0.807); 
   --goldenYellow: rgb(240, 180, 41);
   --lightGray: rgb(226, 232, 240);
   --darkGray: rgb(138, 138, 138);
@@ -10,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 300px repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
 
@@ -33,3 +34,54 @@ body {
 img {
   display: block;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* nav styling */
+
+.nav-container {
+  padding: 1.5em; /*45px*/
+}
+
+.nav-container__head {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.nav-container__icon {
+  width: 35px;
+}
+
+.nav-container__h1 {
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.nav-container__ul--primary {
+  margin: 2em 0;
+}
+
+.nav-container__ul--primary__list-item,
+.nav-container__ul--secondary__list-item {
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: .5em 0;
+}
+
+.nav-container__ul--primary__list-item__link,
+.nav-container__ul--secondary__list-item__link {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  align-items: center;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.nav-container__ul--primary__list-item__link:focus,
+.nav-container__ul--secondary__list-item__link:focus {
+  outline: 2px solid var(--goldenYellow);
+}
+
+/* nav styling */
