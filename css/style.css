@@ -25,6 +25,11 @@ body {
   color: var(--white);
 }
 
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
 img {
   display: block;
 }
