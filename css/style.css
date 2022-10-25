@@ -27,6 +27,9 @@ body {
 }
 
 .avatar {
+  background-color: var(--goldenYellow);
+  border-radius: 100px;
+  padding: .5em;
   width: 100px;
   height: 100px;
 }
@@ -38,6 +41,117 @@ img {
 a {
   text-decoration: none;
 }
+
+.btn {
+  background-color: var(--lightBlue);
+  border: 2px solid var(--lightBlue);
+  border-radius: 100px;
+  color: var(--white);
+  padding: .5em 1.5em;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: .45px;
+  font-size: .95rem;
+}
+
+.btn:focus,
+.btn:hover {
+  border: 2px solid var(--goldenYellow);
+  box-shadow: 2px var(--goldenYellow);
+  background-color: var(--goldenYellow);
+  color: var(--black);
+}
+
+/* header styling */
+.header {
+  background-color: var(--white);
+  padding: 1.5em 2.5em;
+}
+
+.header-container-primary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header-container-primary__search {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
+
+.header-container-primary__search--input {
+  border-radius: 50px;
+  border: 2px solid var(--lightGray);
+  background-color: var(--lightGray);
+  padding: 0.25em 1em;
+}
+
+.header-container-primary__user-wrapper {
+  margin-left: auto;
+}
+
+.header-container-primary__user {
+  display: grid;
+  grid-template-columns: 50px 70px 1fr;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-container-primary__user--avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.header-container-primary__user--name {
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.header-container-secondary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header-container-secondary__user {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-container-secondary__action {
+  justify-self: end;
+  align-self: center;
+}
+
+.header-container-secondary__user--avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.header-container-secondary__user--welsome-msg {
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+.header-container-secondary__user--welsome-msg-greeting {
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: .7em;
+}
+
+.header-container-secondary__user--welsome-msg-user-name {
+  font-size: 1.25rem;
+}
+
+.header-container-secondary__action-btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* header styling */
+
 
 /* nav styling */
 
