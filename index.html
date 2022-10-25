@@ -23,32 +23,39 @@
 <body>
 
   <header class="header">
-    <div>
-      <div>
+    <div class="header-container-primary">
+      <div class="header-container-primary__search">
         <label for="search">
-          <span class="material-icons"> search </span>
+          <img class="header-container-primary__search--icon" src="./assets/search_icon.svg" alt="search">
         </label>
-        <input type="search" id="search" name="search">
+        <input class="header-container-primary__search--input" type="search" id="search" name="search">
       </div>
-      <div>
-        <img src="./assets/notifications_active_icon.svg" alt="notifications">  
-        <img class="avatar" src="./assets/avatar_bird.png" alt="bird">
-        <p>Morgan Oakley</p>      
+      <div class="header-container-primary__user-wrapper">
+        <div class="header-container-primary__user">
+          <img class="header-container-primary__user--notification" src="./assets/notifications_active_icon.svg" alt="notifications">
+          <img class="header-container-primary__user--avatar avatar" src="./assets/avatar_bird.png" alt="bird">
+          <p class="header-container-primary__user--name">Morgan Oakley</p>
+        </div>
       </div>
     </div>
 
-    <div>
-      <div>
-        <img class="avatar" src="./assets/avatar_bird.png" alt="bird">
-        <div>
-          <p>Hi, there, <br>Morgan Oakley (@morgan) </p>
+    <div class="header-container-secondary">
+      <div class="header-container-secondary__user">
+        <img class="header-container-secondary__user--avatar avatar" src="./assets/avatar_bird.png" alt="bird">
+        <div class="header-container-secondary__user--welcome-msg-container">
+          <p class="header-container-secondary__user--welsome-msg">
+            <span class="header-container-secondary__user--welsome-msg-greeting">Hi there,</span>
+           <span class="header-container-secondary__user--welsome-msg-user-name">Morgan Oakley (@morgan)</span>
+          </p>
         </div>
       </div>
 
-      <div>
-        <button type="button">New</button>
-        <button type="button">Upload</button>
-        <button type="button">Share</button>
+      <div class="header-container-secondary__action">
+        <div class="header-container-secondary__action-btn-container">
+          <button class="btn" type="button">New</button>
+          <button class="btn" type="button">Upload</button>
+          <button class="btn" type="button">Share</button>
+        </div>
       </div>
     </div>
   </header>
