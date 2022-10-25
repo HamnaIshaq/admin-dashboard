@@ -6,6 +6,7 @@
   --goldenYellow: rgb(240, 180, 41);
   --lightGray: rgb(226, 232, 240);
   --darkGray: rgb(138, 138, 138);
+  --brightYellow:rgb(250, 204, 21);
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 }
 
 .avatar {
-  background-color: var(--goldenYellow);
+  background-color: var(--brightYellow);
   border-radius: 100px;
   padding: .5em;
   width: 100px;
@@ -58,9 +59,9 @@ a {
 
 .btn:focus,
 .btn:hover {
-  border: 2px solid var(--goldenYellow);
-  box-shadow: 2px var(--goldenYellow);
-  background-color: var(--goldenYellow);
+  border: 2px solid var(--brightYellow);
+  box-shadow: 2px var(--brightYellow);
+  background-color: var(--brightYellow);
   color: var(--black);
 }
 
@@ -197,7 +198,7 @@ a {
 
 .nav-container__ul--primary__list-item__link:focus,
 .nav-container__ul--secondary__list-item__link:focus {
-  outline: 2px solid var(--goldenYellow);
+  outline: 2px solid var(--brightYellow);
 }
 
 /* nav styling */
