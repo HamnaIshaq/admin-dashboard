@@ -209,8 +209,10 @@ a {
 }
 
 .nav-container__ul--primary__list-item__link:focus,
-.nav-container__ul--secondary__list-item__link:focus {
-  outline: 2px solid var(--brightYellow);
+.nav-container__ul--secondary__list-item__link:focus,
+.nav-container__ul--primary__list-item__link:hover,
+.nav-container__ul--secondary__list-item__link:hover {
+  color: var(--black);
 }
 
 /* nav styling */
