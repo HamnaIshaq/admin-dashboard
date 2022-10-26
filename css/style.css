@@ -76,6 +76,10 @@ a {
   color: var(--black);
 }
 
+.btn-action {
+  cursor: pointer;
+} 
+
 /* header styling */
 .header {
   background-color: var(--white);
