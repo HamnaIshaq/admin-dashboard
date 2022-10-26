@@ -119,6 +119,7 @@ a {
 .header-container-secondary {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.25em;
 }
 
 .header-container-secondary__user {
