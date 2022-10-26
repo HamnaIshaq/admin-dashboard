@@ -97,7 +97,7 @@ a {
   border-radius: 50px;
   border: 2px solid var(--lightGray);
   background-color: var(--lightGray);
-  padding: 0.25em 1em;
+  padding: 0.5em 1em;
 }
 
 .header-container-primary__user-wrapper {
