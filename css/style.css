@@ -326,6 +326,10 @@ a {
   margin-top: 1.25em;
 }
 
+.main-sidebar-secondary__content-trending-user-info:first-child {
+  margin-top: 0;
+}
+
 .main-sidebar-secondary__content-trending-user-info--user-intro-container {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
