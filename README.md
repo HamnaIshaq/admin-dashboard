@@ -33,7 +33,7 @@ This is a simple admin dashboard page.
 
 ### What I Learned
 
-I learned how to use and implement css grid through this project. 
+I learned how to use and implement css grid through this project. I also practiced using the BEM naming convention. This really helped me in naming CSS classes.
 
 ## Attribution
 
