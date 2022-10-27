@@ -1,5 +1,35 @@
 # admin-dashboard
 
+This is a simple admin dashboard page.
+
+## Contents
+- [Overview](#overview)
+  - [Challenge](#challenge)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+- [Attribution](#attribution)
+  
+## Overview
+
+### Challenge
+
+- Use css grid for page layout
+- See hover states for interactive elements
+
+## My Process
+
+### Built With
+
+- HTML5
+- CSS3
+- CSS custom properties
+- CSS Grid
+
+### What I Learned
+
+I learned how to use and implement css grid through this project. 
+
 ## Attribution
 
 - <a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/"> The BEM Naming Convention </a>
