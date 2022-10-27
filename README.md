@@ -20,7 +20,7 @@ This is a simple admin dashboard page.
 
 ### Links
 
-- Live Site URL: [Admin Dashboard](https://hamnaishaq.github.io/admin-dashboard/)
+- Live Site URL: <a target="_blank" href="https://hamnaishaq.github.io/admin-dashboard/" title="admin dashboard page">Admin Dashboard</a> 
 
 ## My Process
 
