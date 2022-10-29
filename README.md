@@ -3,14 +3,16 @@
 This is a simple admin dashboard page.
 
 ## Contents
+
 - [Overview](#overview)
   - [Challenge](#challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
 - [Attribution](#attribution)
-  
+
 ## Overview
 
 ### Challenge
@@ -18,9 +20,13 @@ This is a simple admin dashboard page.
 - Use css grid for page layout
 - See hover states for interactive elements
 
+### Screenshot
+
+![screenshot](./screenshots/screenshot.jpg)
+
 ### Links
 
-- Live Site URL: <a target="_blank" href="https://hamnaishaq.github.io/admin-dashboard/" title="admin dashboard page">Admin Dashboard</a> 
+- Live Site URL: <a target="_blank" href="https://hamnaishaq.github.io/admin-dashboard/" title="admin dashboard page">Admin Dashboard</a>
 
 ## My Process
 
